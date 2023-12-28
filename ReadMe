@@ -1,0 +1,25 @@
+---Initial Set-up---
+Install Node.js
+`https://nodejs.org/en`
+
+Check Node version
+`node --version`
+
+Check npm
+`npm --version`
+
+Install Test cafe framework
+`npm install -g testcafe`
+
+Read more about Test cafe
+`https://testcafe.io/`
+`https://testcafe.io/documentation/402635/guides/overview/getting-started`
+
+Run following command to install testcafe dependancies
+`npm install testcafe`
+
+Build the package by running the following command in root folder
+`yarn`
+
+Run the test by following command
+`testcafe chrome .\e2e\tests\login\login.spec.ts  --hostname=localhost`
